@@ -1,0 +1,42 @@
+body {
+    padding-top: 50px;
+}
+
+.starter-template {
+    padding: 30px 15px;
+}
+
+.login-panel {
+    width: 60%;
+    margin: 10% auto;
+}
+
+.user-data-table {
+    table-layout: fixed;
+}
+
+.user-data-table tr td:first-child {
+    width: 80px;
+    font-style: oblique;
+}
+
+.user-data-table tr td:first-child:after {
+    content: ':';
+}
+
+.img-thumbnail {
+    max-width: 128px !important;
+    height: auto !important;
+}
+
+.score-panel {
+    width: 10%;
+    position: fixed;
+    left: 30px;
+    margin-top: 50px;
+}
+
+.score-panel .panel-body {
+    text-align: center;
+    font-size: 40px;
+}
